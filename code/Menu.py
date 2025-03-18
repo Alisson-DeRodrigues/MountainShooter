@@ -15,6 +15,8 @@ class Menu:
 
     def run(self):
         menu_option = 0
+
+        # carrega a música de fundo do menu
         pygame.mixer_music.load('./asset/Menu.mp3')
         pygame.mixer_music.play(-1)
 
